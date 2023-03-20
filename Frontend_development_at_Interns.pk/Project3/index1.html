@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport",content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.0/css/all.min.css">
+    <style>
+        #covid19screen{
+            padding-top: 100px;
+        }
+        #logo{
+            padding-top: 20px;
+            padding-bottom: 10px;
+            max-block-size: 100px;
+        }
+        .container-fluid{
+            padding: 40px;
+            
+        }
+        #Container1{
+            background-color: #EFF0F1;
+        }
+        button{
+            margin:10px;
+        }
+        #moreinfo{
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid" id="Container1">
+        <div class="row">
+            <div class="col-3">
+            <img class="img-fluid" id="logo" src="logo.png">
+            </div>
+        </div>
+        
+       <div class="row">
+           <div class="col-7">
+            <h1>
+                COVID-19 Screening Tool
+            </h1>
+               <p>
+                   Use this self-assessment tool to help determine whether
+                   you need to be tested for COVID-19.
+               </p>
+               <p>
+                   You can complete this assessment for yourself or on behalf 
+                   of someone else, if they are not able.
+               </p>
+           </div>
+           <div class="col-1">
+               
+           </div>
+           <div class="col-4">
+               <img class="img-fluid" id="covid19screen" src="covid19screen.png" alt="Screeninglogos">
+           </div>
+        </div>
+        <div class="row">
+            <button class="btn btn-primary btn-block">Start Screening</button>   
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <h2 id="moreinfo">
+                More Information
+            </h2>            
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <img id="virus" class="img-fluid" src="virus.png">
+            </div>
+            <div class="col-8">
+                <h2>What is Covid-19?</h2>
+                <p>Coronavirus disease (COVID-19) is an infectious disease...</p>
+            </div> 
+            <div class="col-1"><p><i class="fas fa-angle-right fa-2x" style="color: rgb(182, 178, 178);"></i></p></div>         
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-3">
+                <img id="symptoms" class="img-fluid" src="symptoms.png">
+            </div>
+            <div class="col-8">
+                <h2>What are its Symptoms?</h2>
+                <p>The COVID-19 virus effects different people in different way...</p>
+            </div>
+            <div class="col-1"><p><i class="fas fa-angle-right fa-2x" style="color: rgb(182, 178, 178);"></i></p></div>         
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-3">
+                <img id="prevents" class="img-fluid float-left" src="prevent.png">
+            </div>
+            <div class="col-8">
+                <h2>How can you prevent?</h2>
+                <p>There's currently no vaccine to prevent coronavirus disease...</p>
+            </div> 
+            <div class="col-1"><p><i class="fas fa-angle-right fa-2x" style="color: rgb(182, 178, 178);"></i></p></div>         
+        </div>
+
+    </div>
+</body>
+</html>

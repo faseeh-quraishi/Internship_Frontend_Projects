@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport",content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.1/css/all.min.css">
+    <style>
+        .container-fluid{
+            padding-top: 20px;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-bottom: 20px;
+        }
+        #container1{
+            height: 90px;
+            background-color: #EFF0F1;
+        }
+        #logo{
+            padding-top: 0px;
+            max-block-size: 100px;
+        } 
+        #question{
+            padding-top: 20px;
+            padding-bottom: 10px;
+        }  
+        button{
+            margin:5px
+        }  
+        #fever{
+            margin: auto;
+        }   
+    </style>
+</head>
+<body>
+    <div class="container-fluid" id="container1">
+        <div class="row">
+            <div class="col-4">
+            <img class="img-fluid" id="logo" src="logo.png">
+            </div>
+            <div class="col-7"></div>
+            <div class="col-1"><i class="fas fa-times" style="color: grey;"></i></div>
+        </div>
+    </div>
+    <div class="container-fluid" id="container2">
+        <div class="row">
+            <div class="">
+            <h2 id="question">
+                Do you have Fever above 101.4?
+            </h2>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid text-center" id="container3">
+        
+            <img id="fever" class="rounded .mx-auto d-block" src="fever.png">
+                
+        </div>
+    </div>
+    <div class="container-fluid" id="container4">
+        <div class="row">
+            <button class="btn btn-primary btn-block">Yes, I do</button>    
+        </div>
+        <div class="row">
+            <button class="btn btn-primary btn-block">No, I don't</button>    
+        </div>
+    </div>
+</body>
+</html>
